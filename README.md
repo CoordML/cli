@@ -1,2 +1,2 @@
-# coordml_cli
+# CoordML *CLI*
  CLI for CoordML Central
