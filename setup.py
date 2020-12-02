@@ -5,13 +5,13 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name="coordml_cli",
-    version="0.0.1",
+    version="0.0.2",
     author="Yichen Xu",
     author_email="yichen.xu@monad.email",
     description="CLI for CoordML Central",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/coordml/coordml_cli",
+    url="https://github.com/coordml/cli",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
