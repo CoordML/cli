@@ -8,4 +8,5 @@ class CentralClient:
 
     def create_exp(self, exp_config: ExpConfig):
         req = requests.post(f'{self.api_entry}/exp/create', json=exp_config.dump())
+        print(f'response is {req.content}')
         return req.json()['expId']
